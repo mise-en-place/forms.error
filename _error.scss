@@ -1,0 +1,36 @@
+
+/*doc
+---
+title: Errors
+name: 4_errors
+category: forms
+---
+
+Inline error messages are labels, so clicking or tapping on them will focus on the errored element
+
+```html_example
+<div class="control">
+    <label for="emailaddress" class="label">Email address:</label>
+    <input id="emailaddress" type="email" class="input input--error" />
+    <label for="emailaddress" class="label--error control__caption">Please enter a valid email address</label>
+</div>
+```
+*/
+
+// SHAME error list
+
+.errors__field-wrapper {
+    input,
+    textarea,
+    &.select__wrapper {
+        border-color: palette('pink');
+    }
+}
+
+
+.errors__list {
+    @include font-family(type-config(headings-family));
+    @include font-scale(small);
+    margin-top: rem-calc(10);
+    color: palette('pink');
+}
