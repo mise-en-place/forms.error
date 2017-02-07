@@ -22,6 +22,6 @@
   "dependencies": {
     "mep-tools.rem-calc": "github:mise-en-place/tools.rem-calc",
     "mep-tools.palette": "github:mise-en-place/tools.palette",
-    "mep-tools.font-scale": "github:mise-en-place/tools.font-scale",
+    "mep-tools.font-scale": "github:mise-en-place/tools.font-scale"
   }
 }
