@@ -19,9 +19,9 @@ Inline error messages are labels, so clicking or tapping on them will focus on t
 
 // SHAME error list
 
-@import "tool-rem-calc";
-@import "tool-palette";
-@import "font-scale";
+@import "~mep-tools.rem-calc";
+@import "~mep-tools.palette";
+@import "~mep-tools.font-scale";
 
 .errors__field-wrapper {
     input,
